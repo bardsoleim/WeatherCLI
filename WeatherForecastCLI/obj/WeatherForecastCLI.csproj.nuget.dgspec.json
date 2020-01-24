@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/zx/programming/WeatherForecastCLI/WeatherForecastCLI.csproj": {}
+  },
+  "projects": {
+    "/home/zx/programming/WeatherForecastCLI/WeatherForecastCLI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zx/programming/WeatherForecastCLI/WeatherForecastCLI.csproj",
+        "projectName": "WeatherForecastCLI",
+        "projectPath": "/home/zx/programming/WeatherForecastCLI/WeatherForecastCLI.csproj",
+        "packagesPath": "/home/zx/.nuget/packages/",
+        "outputPath": "/home/zx/programming/WeatherForecastCLI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.10.1, )"
+            },
+            "ServiceStack.Text": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
