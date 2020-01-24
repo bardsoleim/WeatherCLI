@@ -7,7 +7,7 @@ namespace WeatherForecastCLI
     class Program
     {
        static string url = "https://api.openweathermap.org/data/2.5/weather?";
-       static string key = "e6bef7da550775c5db0f2bcc5ac630ff";
+       static string key = "your-api-key-here";
        static string extra = "&units=metric";
         static void Main(string[] args)
         {
